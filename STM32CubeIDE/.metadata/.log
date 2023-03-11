@@ -1,0 +1,42 @@
+!SESSION 2023-03-11 22:05:09.291 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\__GitHub\nucleoH745\STM32CubeIDE
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-03-11 22:05:12.885
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-03-11 22:05:12.885
+!MESSAGE Log4j2 initialized with config file D:\__GitHub\nucleoH745\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-03-11 22:05:15.191
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-11 22:06:18.334
+!MESSAGE Indexed 'nucleoH745_CM7' (8 sources, 84 headers) in 2.54 sec: 5,341 declarations; 8,398 references; 6 unresolved inclusions; 42 syntax errors; 2,265 unresolved names (14%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-11 22:06:19.832
+!MESSAGE Indexed 'nucleoH745_CM4' (7 sources, 86 headers) in 1.45 sec: 6,136 declarations; 9,681 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.013%)
+
+!ENTRY org.eclipse.core.resources 4 77 2023-03-11 22:07:07.850
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-03-11 22:07:07.850
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-03-11 22:07:07.850
+!MESSAGE D:\__GitHub\nucleoH745\STM32CubeIDE\001_GPIO_speedTest\CM7 overlaps the location of another project: 'nucleoH745_CM7'
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2023-03-11 22:07:07.850
+!MESSAGE Project is required
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2023-03-11 22:07:07.866
+!MESSAGE Project is required
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2023-03-11 22:07:57.597
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:952)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
