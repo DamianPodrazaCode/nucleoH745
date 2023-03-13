@@ -1,0 +1,10 @@
+22:19:54 **** Incremental Build of configuration Debug for project BootCM4_CM7_CM7 ****
+make -j12 all 
+arm-none-eabi-size   BootCM4_CM7_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7128	     24	   1568	   8720	   2210	BootCM4_CM7_CM7.elf
+Finished building: default.size.stdout
+ 
+
+22:19:55 Build Finished. 0 errors, 0 warnings. (took 289ms)
+
