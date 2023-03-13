@@ -1,0 +1,17 @@
+21:13:12 **** Incremental Build of configuration Debug for project nucleoH745_CM7 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H745xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_H7_V1.11.0/Drivers/STM32H7xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_H7_V1.11.0/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_H7_V1.11.0/Drivers/CMSIS/Device/ST/STM32H7xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_H7_V1.11.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "nucleoH745_CM7.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\__GitHub\nucleoH745\STM32CubeIDE\001_GPIO_speedTest\CM7\STM32H745ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleoH745_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleoH745_CM7.elf
+ 
+arm-none-eabi-size   nucleoH745_CM7.elf 
+arm-none-eabi-objdump -h -S  nucleoH745_CM7.elf  > "nucleoH745_CM7.list"
+   text	   data	    bss	    dec	    hex	filename
+   7912	     24	   1568	   9504	   2520	nucleoH745_CM7.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleoH745_CM7.list
+ 
+
+21:13:13 Build Finished. 0 errors, 0 warnings. (took 602ms)
+

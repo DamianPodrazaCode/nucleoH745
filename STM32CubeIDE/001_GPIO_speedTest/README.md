@@ -1,2 +1,0 @@
-# GPIO speed test
-
